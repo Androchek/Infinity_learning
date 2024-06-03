@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="INFINITY LEARNING"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SS_assignment1"
+        tools:targetApi="31">
+        <activity
+            android:name=".BLOCKCHAIN"
+            android:exported="false" />
+        <activity
+            android:name=".CYVBERSECURITY"
+            android:exported="false" />
+        <activity
+            android:name=".Machine_learning"
+            android:exported="false" />
+        <activity
+            android:name=".IOS_appdev"
+            android:exported="false" />
+        <activity
+            android:name=".WEB_D"
+            android:exported="false" />
+        <activity
+            android:name=".android"
+            android:exported="false" />
+        <activity
+            android:name=".SCREEN2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
